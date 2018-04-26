@@ -1,0 +1,155 @@
+/* ---------------------------------- */
+/* -- e s t i l o s    c s s -- */
+/* ---------------------------------- */
+
+.titulo1, .titulo1b {
+	border: 0px solid red;
+  	font-family: 'Ubuntu', sans-serif;
+  	color: #da0102;
+  	text-align: center;
+}
+
+.titulo1 {
+	font-size: 1em;
+}
+
+.titulo1b {
+	font-size: 1.5em;
+}
+
+.titulo2 {
+	border: 0px solid red;
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 0.85em;
+  	color: #0d8dcd;
+  	text-align: right;
+}
+
+.titulo3 {
+	border: 0px solid red;
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 1.3em;
+  	color: #000000;
+  	text-align: center;
+}
+
+.navbar-brand {
+	cursor: pointer;
+}
+
+.footer {
+	font-size:1em;
+	text-align: right;
+	border-top: 1px solid black;
+	margin-top: 30px;
+}
+
+
+/* -- t a b l a s -- */
+
+table > td {
+    font-family           : "Arial";
+    font-size             : small;
+    color                 : #000000;
+}
+
+.barra {
+	border: 0px solid red;
+	background-color: #80c080;
+}
+
+.ptosTot {
+    font-size             : 1.4em;
+    font-weight           : bold; 
+    color                 : #0000b0;
+    font-style            : italic;
+}
+
+.____ , .Campeon, .Final {
+     ont-size             : 0.9em;
+    font-weight           : bold;	
+    border                : 1px solid silver;
+}
+
+.Grupos, .Octavos, .Cuartos, .Semis {
+	text-decoration: line-through;
+    font-size             : 0.9em;
+    color                 : #ff0000;
+    font-weight           : bold;
+    border                : 1px solid silver;
+}
+
+/* ----------------------------------------------- */
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 599px) {
+  
+   .titulo1 {
+   	border: 0px solid black;
+   }
+
+   .titulo1b {
+   	border: 0px solid purple;
+   }
+
+}
+
+@media (min-width: 600px) {
+  /* Navbar positioning foo */
+   .titulo1 {
+   	border: 0px solid purple;
+   	font-size: 1.4em;
+   	padding-top:0px;
+   }
+
+   .titulo2 {
+   	font-size: 1em;
+   }
+
+   .titulo1b {
+   	border: 0px solid purple;
+   	font-size: 1.25em;
+   	padding-top:20px;
+   }
+
+}
+
+@media (min-width: 992px) {
+   .titulo1 {
+   	border: 0px solid green;
+   	font-size: 1.6em;
+   }
+
+   .titulo1b {
+   	border: 0px solid purple;
+   	font-size: 1.6em;
+   	padding-top:30px;
+   }
+
+}
+
+@media (min-width: 1200px) {
+   .titulo1 {
+   	border: 0px solid red;
+   	font-size: 1.8em;
+   }
+
+   .titulo1b {
+   	border: 0px solid purple;
+   	font-size: 1.8em;
+   	padding-top:40px;
+   }
+
+}
+
+/* -------------------------------------------- */
+
+
+
+
+/* ---------------------------------- */
+/* ------ r a f a e l l i n i ------- */
+/* ---------------------------------- */
